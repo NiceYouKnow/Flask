@@ -1,0 +1,2 @@
+User {{ user.username }} has joined.
+Password{{user.password}}

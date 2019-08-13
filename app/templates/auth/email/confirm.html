@@ -1,0 +1,7 @@
+<p>Dear {{ user.username }},</p>
+<p>欢迎来到 <b>Chestnut</b>!</p>
+<p>请确认您的帐户 <a href="{{ url_for('auth.confirm', token=token, _external=True) }}">点击这里</a>.</p>
+<p>或者，可以将以下链接粘贴到浏览器的地址栏中:</p>
+<p>{{ url_for('auth.confirm', token=token, _external=True) }}</p>
+<p>真诚的，</p>
+<p>The Chestnut Team</p>

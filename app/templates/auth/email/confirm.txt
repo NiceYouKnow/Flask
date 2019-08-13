@@ -1,0 +1,12 @@
+Dear {{ user.username }},
+
+欢迎来到 Chestnut!
+
+要确认您的帐户，请单击以下链接:
+
+{{ url_for('auth.confirm', token=token, _external=True) }}
+
+真诚的，
+
+The Chestnut Team
+

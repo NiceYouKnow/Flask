@@ -17,7 +17,7 @@ Flask-Moment==0.8.0
 Flask-PageDown==0.2.2
 Flask-SQLAlchemy==2.4.0
 Flask-WTF==0.14.2
-httpie==1.0.2
+httpie==1.0.3
 idna==2.8
 itsdangerous==1.1.0
 Jinja2==2.10.1

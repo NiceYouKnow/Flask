@@ -152,7 +152,7 @@ def edit(id):
     return render_template('edit_post.html', form=form)
 
 
-@main.route('/delete/<int:id>', methods=['POST'])
+@main.route('/delete/<int:id>', methods=['GET', 'POST'])
 @login_required
 def delete(id):
     post = Post.query.get_or_404(id)
